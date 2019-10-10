@@ -30,8 +30,9 @@ safe-rm是避免删除重要文件的工具。执行rm命令时就会检查rm命
 > -C：指定解压目录
 
 ## 4. 软连接
-
-    ln -s /usr/local/bin/safe-rm-0.12/safe-rm /usr/local/bin/rm
+```php
+echo "aaa"
+```
 
 ## 5. 配置环境变量
 
