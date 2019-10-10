@@ -1,0 +1,23 @@
+{
+  "name": "k-vuepress-blog",
+  "version": "0.1.0",
+  "description": "Blog based on VuePress",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-liaojiale/k-vuepress-blog.git"
+  },
+  "author": "liaojiale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-liaojiale/k-vuepress-blog/issues"
+  },
+  "homepage": "https://github.com/k-liaojiale/k-vuepress-blog#readme",
+  "devDependencies": {
+    "vuepress": "^1.1.0"
+  }
+}
