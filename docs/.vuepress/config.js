@@ -1,5 +1,6 @@
+const pluginConf = require('../../config/pluginConf')
 const navConf = require('../../config/navConf')
-const sidebarConf = require('../../sidebarConf/index')
+const sidebarConf = require('../../config/sidebarConf/index')
 
 module.exports = {
   title: '落秋\'s Blog',
@@ -19,10 +20,5 @@ module.exports = {
     sidebar: sidebarConf,
     lastUpdated: '上次更新'
   },
-  plugins: {
-    '@vuepress/pwa': {
-      serviceWorker: true,
-      updatePopup: true
-    }
-  }
+  plugins: pluginConf
 }

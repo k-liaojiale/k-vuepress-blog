@@ -8,16 +8,24 @@
     <PageNav v-bind="{ sidebarItems }" />
 
     <slot name="bottom" />
+
+    <component :is="viewComments"></component>
   </main>
 </template>
 
 <script>
 import PageEdit from '@theme/components/PageEdit.vue'
 import PageNav from '@theme/components/PageNav.vue'
+import Comments from '@theme/components/Comments.vue'
 
 export default {
-  components: { PageEdit, PageNav },
-  props: ['sidebarItems']
+  components: { PageEdit, PageNav, Comments },
+  props: ['sidebarItems'],
+  data (){
+    return {
+      viewComments: 'Comments',
+    }
+  }
 }
 </script>
 
