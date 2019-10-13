@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/k-liaojiale/k-vuepress-blog#readme",
   "devDependencies": {
+    "@vuepress/plugin-pwa": "^1.0.0-rc.1",
     "vuepress": "^1.1.0"
   }
 }

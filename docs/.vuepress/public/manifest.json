@@ -1,0 +1,15 @@
+{
+    "name": "落秋's Blog",
+    "short_name": "落秋",
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#2196f3",
+    "description": "落秋的博客",
+    "icons": [
+      {
+        "src": "/avatar.jpg",
+        "sizes": "144x144",
+        "type": "image/png"
+      }
+    ]
+  }

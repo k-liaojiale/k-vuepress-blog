@@ -10,12 +10,19 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel:'icon', href: '/logo.png'}]
+    ['link', { rel:'icon', href: '/logo.png'}],
+    ['link', { rel:'manifest', href: '/manifest.json'}]
   ],
   themeConfig: {
     repo: 'k-liaojiale/k-vuepress-blog', // 在导航栏中自动生成一个 GitHub 链接
     nav: navConf,
     sidebar: sidebarConf,
     lastUpdated: '上次更新'
+  },
+  plugins: {
+    '@vuepress/pwa': {
+      serviceWorker: true,
+      updatePopup: true
+    }
   }
 }
