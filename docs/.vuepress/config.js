@@ -11,7 +11,10 @@ module.exports = {
     }
   },
   head: [
-    ['link', { rel:'icon', href: '/logo.png'}],
+    ['link', { rel:'apple-touch-icon', href: '/apple-touch-icon.png'}],
+    ['link', { rel:'icon', href: '/favicon-32x32.png'}],
+    ['meta', { name:'theme-color', content: '#ffffff'}],
+    ['meta', { name: 'msapplication-TileColor', content: '#00aba9' }],
     ['link', { rel:'manifest', href: '/manifest.json'}]
   ],
   themeConfig: {
