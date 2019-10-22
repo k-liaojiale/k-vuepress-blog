@@ -1,7 +1,5 @@
-// 基础 Base
-
-// 操作系统 OS
-const centos = require('./OS/centos/index')
+// Note
+const centos = require('./Note/index')
 
 /**
  * 侧边栏的配置
@@ -11,6 +9,6 @@ const centos = require('./OS/centos/index')
  * 应当将 /frontend/css 写在更上方
  */
 module.exports = {
-  // 操作系统 OS
-  '/OS/centos/': centos
+  // 笔记
+  '/Note/': centos,
 }
